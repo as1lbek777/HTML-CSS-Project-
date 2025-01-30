@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Ubuntu";
 }
 a{
     text-decoration: none;
@@ -13,6 +15,14 @@ ul li{
     max-width: 1100px;
     margin: 0 auto;
 }
+.nav{
+    margin-top: 20px;
+    padding: 8px;
+    border-bottom: 1.5px solid #E2E3EF;
+}
+.none{
+    display: none;
+}
 .flex{
     display: flex;
     align-items: center;
@@ -20,4 +30,200 @@ ul li{
 }
 .gap{
     gap: 1.5rem;
+}
+.size_text_trans_color{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #07040C;
+    font-weight: 500;
+    transition: 0.8s ease;
+}
+.hover:hover{
+    color: #069fd39a;
+    transition: all 0.3s linear;
+}
+.button{
+    padding: 6px 15px;
+    font-size: 12px;
+    color: #07040C;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: white;
+    transition: 0.8s ease;
+}
+.button:hover{
+    border: 1px solid #069fd39a;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+}
+.p{
+    margin-top: 10px;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 69px;
+}
+.p2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+    color: #585967;
+}
+.p2 span{
+    color: #F35A05;
+}
+.div_2{
+    margin-top: 30px;
+}
+.div_2 .a_button button{
+    padding: 14px 25px;
+    border-radius: 60px;
+    background-color: #F35A05;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid #F35A05;
+}
+.div_2 .p3{
+    margin-left: 100px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.p4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.p5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.svg{
+    margin-top: -1.8rem;
+}
+.svg2{
+    margin-top: 1.3rem;
+}
+.svg3{
+    margin-top: 2.9rem;
+}
+.svg4{
+    margin-top: 2.9rem;
+}
+.flex3{
+    display: flex;
+    gap: 16px;
+}
+.card_acar{
+    width: 700px;
+    height: 100px;
+    background-color: #fbfbbf;
+    border: 2.1px dashed #0000007e;
+    border-radius: 10px;
+    transition: 1s ease;
+    margin-top: 20px;
+    position: relative;
+}
+.card_acar:hover{
+    transition: 0.5S ease;
+    box-shadow: 0px 8px 20px 0px #0000007e;
+    border: 2.1px solid #fbfbbf;
+}
+.svg5{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.div3{
+    position: relative;
+}
+.img3{
+    position: absolute;
+    top: 21px;
+    right: 4.5px;
+}
+.p_4{
+    position: absolute;
+    left: 30px;
+}
+.p_5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    position: absolute;
+    top: 55px;
+    left: 45px;
+}
+.card_acar2{
+    width: 700px;
+    height: 140px;
+    background-color: #fbfbbf;
+    border: 2.1px dashed #0000007e;
+    border-radius: 10px;
+    transition: 1s ease;
+    margin-top: 20px;
+    position: relative;
+}
+.card_acar2:hover{
+    transition: 0.5S ease;
+    box-shadow: 0px 8px 20px 0px #0000007e;
+    border: 2.1px solid #fbfbbf;
+}
+.li{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 360px) and (max-width:916px) {
+    .container{
+        max-width: 340px;
+        margin: 0 auto;
+    }
+    .ul_none{
+        display: none;
+    }
+    .none{
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #07040C;
+        font-weight: 500;
+        transition: 0.8s ease;
+        display: block;
+        margin-left: 40px;
+    }
+    .none:hover{
+        color: #069fd39a;
+        transition: all 0.3s linear;
+        cursor: pointer;
+    }
+    .p{
+        margin-top: -60px;
+        font-size: 35px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 40px;
+    }
+    .p2{
+        font-size: 1.2rem;
+        text-align: center;
+    }
 }
