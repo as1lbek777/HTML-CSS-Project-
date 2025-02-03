@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
 * {
     margin: 0;
     padding: 0;
@@ -250,10 +254,10 @@ ul li {
 
 .span_1 {
     position: absolute;
-    top: -32px;
-    left: 6.5px;
+    top: -34px;
+    left: 6.2px;
     font-size: 22px;
-    transform: rotate(10deg);
+    transform: rotate(5deg);
     color: white;
     font-weight: 400;
     font-style: italic;
@@ -268,7 +272,7 @@ ul li {
 }
 .left{
     position: absolute;
-    left: 600px;
+    left: 550px;
 }
 .left2{
     position: absolute;
@@ -292,7 +296,7 @@ ul li {
 }
 .top{
     position: absolute;
-    top: 50px;
+    top: 70px;
     left: -40px;
     width: 380px;
     height: 220px;
