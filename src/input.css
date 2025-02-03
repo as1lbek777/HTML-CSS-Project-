@@ -1,48 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Ubuntu";
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul li{
+
+ul li {
     list-style: none;
 }
-.container{
+
+.container {
     max-width: 1100px;
     margin: 0 auto;
 }
-.nav{
+
+.nav {
     margin-top: 20px;
     padding: 8px;
-    border-bottom: 1.5px solid #E2E3EF;
+    border-bottom: 2px solid #E2E3EF;
 }
-.none{
+
+.none {
     display: none;
 }
-.flex{
+
+.flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.gap{
+
+.gap {
     gap: 1.5rem;
 }
-.size_text_trans_color{
+
+.size_text_trans_color {
     font-size: 14px;
     text-transform: uppercase;
     color: #07040C;
     font-weight: 500;
     transition: 0.8s ease;
 }
-.hover:hover{
+
+.hover:hover {
     color: #069fd39a;
     transition: all 0.3s linear;
 }
-.button{
+
+.button {
     padding: 6px 15px;
     font-size: 12px;
     color: #07040C;
@@ -53,35 +63,42 @@ ul li{
     background-color: white;
     transition: 0.8s ease;
 }
-.button:hover{
+
+.button:hover {
     border: 1px solid #069fd39a;
     transition: all 0.3s linear;
     cursor: pointer;
 }
-.flex2{
+
+.flex2 {
     display: flex;
     flex-direction: column;
 }
-.p{
+
+.p {
     margin-top: 10px;
     font-size: 3rem;
     font-weight: 700;
     line-height: 69px;
 }
-.p2{
+
+.p2 {
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.8px;
     color: #585967;
 }
-.p2 span{
+
+.p2 span {
     color: #F35A05;
 }
-.div_2{
+
+.div_2 {
     margin-top: 30px;
 }
-.div_2 .a_button button{
+
+.a_button1 {
     padding: 14px 25px;
     border-radius: 60px;
     background-color: #F35A05;
@@ -89,39 +106,59 @@ ul li{
     text-transform: uppercase;
     cursor: pointer;
     border: 1px solid #F35A05;
+    transition: all 0.5s ease;
 }
-.div_2 .p3{
-    margin-left: 100px;
+
+.active:hover{
+    color: white;
+    background-color: #585967;
+}
+
+.active:active{
+    transition: all 0.3s ease;
+    color: #F35A05;
+}
+.p3 {
     font-size: 16px;
     font-weight: 400;
+    color: #585967;
 }
-.p4{
+
+.p4 {
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
 }
-.p5{
+
+.p5 {
     font-size: 16px;
     font-weight: 400;
-    line-height: 25px;
+    margin-top: 10px;
+    color: #585967;
 }
-.svg{
-    margin-top: -1.8rem;
+
+.svg {
+    margin-top: -0.9rem;
 }
-.svg2{
-    margin-top: 1.3rem;
+
+.svg2 {
+    margin-top: 1.4rem;
 }
-.svg3{
+
+.svg3 {
     margin-top: 2.9rem;
 }
-.svg4{
+
+.svg4 {
     margin-top: 2.9rem;
 }
-.flex3{
+
+.flex3 {
     display: flex;
     gap: 16px;
 }
-.card_acar{
+
+.card_acar {
     width: 700px;
     height: 100px;
     background-color: #fbfbbf;
@@ -131,28 +168,34 @@ ul li{
     margin-top: 20px;
     position: relative;
 }
-.card_acar:hover{
+
+.card_acar:hover {
     transition: 0.5S ease;
     box-shadow: 0px 8px 20px 0px #0000007e;
     border: 2.1px solid #fbfbbf;
 }
-.svg5{
+
+.svg5 {
     margin-top: 15px;
     margin-left: 15px;
 }
-.div3{
+
+.div3 {
     position: relative;
 }
-.img3{
+
+.img3 {
     position: absolute;
     top: 21px;
     right: 4.5px;
 }
-.p_4{
+
+.p_4 {
     position: absolute;
     left: 30px;
 }
-.p_5{
+
+.p_5 {
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
@@ -160,7 +203,8 @@ ul li{
     top: 55px;
     left: 45px;
 }
-.card_acar2{
+
+.card_acar2 {
     width: 700px;
     height: 140px;
     background-color: #fbfbbf;
@@ -170,13 +214,88 @@ ul li{
     margin-top: 20px;
     position: relative;
 }
-.card_acar2:hover{
+
+.card_acar2:hover {
     transition: 0.5S ease;
     box-shadow: 0px 8px 20px 0px #0000007e;
     border: 2.1px solid #fbfbbf;
 }
-.li{
+
+.li {
     margin-left: 15px;
+}
+.flex_3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    width: 400px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.div_{
+    position: relative;
+}
+
+.img_2{
+    position: absolute;
+    top: -38px;
+    left: -4px;
+}
+
+.span_1 {
+    position: absolute;
+    top: -32px;
+    left: 6.5px;
+    font-size: 22px;
+    transform: rotate(10deg);
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.p_2{
+    position: absolute;
+    top: -19px;
+    left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.left{
+    position: absolute;
+    left: 600px;
+}
+.left2{
+    position: absolute;
+    left: 930px;
+}
+.p6{
+    position: absolute;
+    left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #585967;
+    text-align: center;
+}
+.hay_xoy{
+    font-size: 14px;
+    font-weight: 500;
+    color: #F35A05;
+    padding: 3px 8px;
+    border: 1.2px solid #F35A05;
+    border-radius: 50px;
+}
+.top{
+    position: absolute;
+    top: 50px;
+    left: -40px;
+    width: 380px;
+    height: 220px;
 }
 
 
@@ -193,37 +312,73 @@ ul li{
 
 
 
-@media (min-width: 360px) and (max-width:916px) {
-    .container{
+
+
+
+
+
+
+
+
+@media (min-width: 360px) and (max-width: 916px) {
+    .container {
         max-width: 340px;
-        margin: 0 auto;
+        margin: auto;
     }
-    .ul_none{
+    .wrab{
+        flex-wrap: wrap;
+    }
+    .center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ul_none {
         display: none;
     }
-    .none{
-        font-size: 30px;
+    .none {
+        font-size: 35px;
         text-transform: uppercase;
         color: #07040C;
         font-weight: 500;
         transition: 0.8s ease;
-        display: block;
-        margin-left: 40px;
+        display: inline;
+        margin-right: -130px;
     }
-    .none:hover{
+    .none:hover {
         color: #069fd39a;
         transition: all 0.3s linear;
         cursor: pointer;
     }
-    .p{
-        margin-top: -60px;
+    .button{
+        display: none;
+    }
+    .p {
         font-size: 35px;
         font-weight: 700;
         text-align: center;
         line-height: 40px;
     }
-    .p2{
-        font-size: 1.2rem;
+    .p2 {
+        font-size: 1.3rem;
         text-align: center;
+    }
+    .a_button1{
+        padding: 20px 100px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .column{
+        margin-top: 20px;
+        width: 103%;
+        height: auto;
+        background-size: cover;
+    }
+    .p3{
+        font-size: 18px;
+    }
+    .varb2{
+        flex-wrap: wrap;
     }
 }

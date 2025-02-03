@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/input.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
+
 <body>
     <nav class="container flex nav">
         <div class="flex">
@@ -30,36 +33,32 @@
             </a>
         </div>
     </nav>
-    <section class="container flex">
+    <section class="container flex wrab">
         <div class="flex2">
             <p class="p">Готовая семантика за 1 минуту</p>
             <p class="p2">Сервис <span>автоматического</span> сбора очищенных запросов для любой страницы сайта</p>
-            <div class="flex div_2">
+            <div class="flex3 div_2 vrab center">
                 <a class="a_button" href="#">
-                    <button>Попробовать</button>
+                    <button class="a_button1 active" data-aos="zoom-out-up" data-aos-easing="lainer" data-aos-offset="300" data-aos-duration="1800">Попробовать</button>
                 </a>
-                <p class="p3">При регистрации 500 руб., хватит чтобы влюбиться<img src="./assets/svg/Group 55.svg" alt=""></p>
+                <p class="p3">При регистрации 500 руб., <br> хватит чтобы влюбиться<img src="./assets/svg/Group 55.svg" alt=""></p>
             </div>
         </div>
         <div>
-            <img src="./assets/svg/Frame 3.svg" alt="Picture">
+            <img class="column" src="./assets/svg/Frame 3.svg" alt="Picture">
         </div>
     </section>
 
     <section class="container flex">
         <div>
             <img src="./assets/svg/Frame 4.svg" alt="">
-            <p class="p4">
-                Избавит <br> от рутины
-            </p>
-            <p class="p5">
-                Долой чистку, парсинг, <br> группировку
-            </p>
+            <p class="p4">Избавит <br> от рутины</p>
+            <p class="p5">Долой чистку, парсинг, <br> группировку</p>
         </div>
 
         <div>
             <img class="svg" src="./assets/svg/Frame 5.svg" alt="">
-            <p class="p4">Легко <br> разобраться</p>
+            <p class="p4 mt" >Легко <br> разобраться</p>
             <p class="p5">Всего 2 кнопки</p>
         </div>
 
@@ -83,12 +82,14 @@
     </section>
 
     <section class="div_3">
-        <center><br><br><br><p class="p">Ноу-Хау в Кластеризаторе по Топ-у</p></center>
+        <center><br><br><br>
+            <p class="p">Ноу-Хау в Кластеризаторе по Топ-у</p>
+        </center>
     </section>
 
     <section class="container flex">
         <div>
-            <div class="card_acar">
+            <div class="card_acar" data-aos="fade-down-right" data-aos-easing="lainer" data-aos-offset="300" data-aos-duration="1800">
                 <div class="flex3">
                     <div class="div3">
                         <img class="svg5" src="./assets/svg/Rectangle 6.svg" alt="">
@@ -98,7 +99,7 @@
                 </div>
                 <p class="p_5">На основе лучших страниц конкурентов по видимости</p>
             </div>
-            <div class="card_acar">
+            <div class="card_acar" data-aos="fade-right" data-aos-easing="lainer" data-aos-offset="300" data-aos-duration="1800">
                 <div class="flex3">
                     <div class="div3">
                         <img class="svg5" src="./assets/svg/Rectangle 6.svg" alt="">
@@ -108,7 +109,7 @@
                 </div>
                 <p class="p_5">Если они смогли быть в ТОП по этим запросам, значит и вы сможете</p>
             </div>
-            <div class="card_acar2">
+            <div class="card_acar2" data-aos="fade-up-right" data-aos-easing="lainer" data-aos-offset="300" data-aos-duration="1800">
                 <div class="flex3">
                     <div class="div3">
                         <img class="svg5" src="./assets/svg/Rectangle 6.svg" alt="">
@@ -122,21 +123,62 @@
                 </ol>
             </div>
         </div>
-        <div>
+        <div data-aos="fade-left" data-aos-easing="lainer" data-aos-offset="300" data-aos-duration="1800">
             <img src="./assets/svg/Frame 9.svg" alt="">
         </div>
     </section>
 
     <section class="container div_3">
-        <center><br><br><br><p class="p">Как работает сервис</p></center>
-        <center><p class="p5">Процесс состоит из следующих действий</p></center>
-        <div>
-            <div class="">
-                <p><span>1</span> Сбор запросов конкурентов</p>
+        <center><br><br><br>
+            <p class="p">Как работает сервис</p>
+        </center>
+
+        <center>
+            <p class="p5">Процесс состоит из следующих действий</p><br><br><br>
+        </center>
+
+        <div class="flex_3">
+            <div class="div_ card">
+                <div class="flex">
+                    <img class="img_2" src="./assets/svg/radius.svg" alt="">
+                    <span class="span_1">1</span>
+                    <p class="p_2">Сбор запросов конкурентов</p>
+                </div>
+                <p class="p6">Берем запросы со страниц конкурентов,<br> используя платные, обновляемые базы</p>
+                <img class="top" src="./assets/image/birinchi rasm.png" alt="">
             </div>
-            <div></div>
-            <div></div>
+            <div class="div_ flex card left">
+                <div>
+                    <img class="img_2" src="./assets/svg/radius.svg" alt="">
+                    <span class="span_1">2</span>
+                    <p class="p_2">Кластеризация <span class="hay_xoy">Ноу-Хау</span></p>
+                </div>
+                <p class="p6">Вначале производится чистка запросов. <br> Далее сбор данных и их обработка с <br> перепроверкой данных</p>
+            </div>
+            <div class="div_ flex card left2">
+                <div>
+                    <img class="img_2" src="./assets/svg/radius.svg" alt="">
+                    <span class="span_1">3</span>
+                    <p class="p_2">Подготовка готовой семантики</p>
+                </div>
+                <p class="p6">Сбор частотности. Определение правильного <br> (самого частотного) порядка слов</p>
+            </div>
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
+
 </html>
